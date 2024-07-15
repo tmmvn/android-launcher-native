@@ -29,6 +29,7 @@
         <file>qml/intro/IntroSelection.qml</file>
         <file>qml/components/RadioButtonStyleDefault.qml</file>
         <file>qml/intro/IntroScreen.qml</file>
+        <file>qml/qmldir</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="test">resources/images/test.png</file>

@@ -1,0 +1,2 @@
+internal ApplicationWindow main.qml
+internal FocusScope introView.qml

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.iktwo.qutelauncher" android:installLocation="auto" android:versionCode="6" android:versionName="0.06">
+
+    <application android:name="org.qtproject.qt.android.bindings.QtApplication" android:hardwareAccelerated="true" android:label="QuteLauncher" android:theme="@style/AppTheme">
+
+        <activity android:name=".QuteLauncher" android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|locale|fontScale|keyboard|keyboardHidden|navigation" android:label="Qutelauncher" android:launchMode="singleInstance" android:screenOrientation="unspecified" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.app.lib_name" android:value="launcherApp"/>
+            <!-- Deploy
+            <meta-data android:name="android.app.bundled_in_lib_resource_id" android:resource="@array/bundled_in_lib"/>
+            <meta-data android:name="android.app.bundled_in_assets_resource_id" android:resource="@array/bundled_in_assets"/>
+            Qt libs as part of package -->
+            <!--
+            <meta-data android:name="android.app.load_local_libs" android:value="- %%INSERT_LOCAL_LIBS%% -"/>
+            Run with local libs -->
+        </activity>
+
+    </application>
+
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+
+
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="31"/>
+<!-- %%INSERT_PERMISSIONS -->
+    <!-- %%INSERT_FEATURES -->
+</manifest>

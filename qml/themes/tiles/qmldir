@@ -1,0 +1,9 @@
+module themes/tiles
+ApplicationGrid 1.0 ApplicationGrid.qml
+ApplicationList 1.0 ApplicationList.qml
+ApplicationMenu 1.0 ApplicationMenu.qml
+ApplicationSection 1.0 ApplicationSection.qml
+ColorPicker 1.0 ColorPicker.qml
+Configuration 1.0 Configuration.qml
+SectionNavigator 1.0 SectionNavigator.qml
+ThemeMain 1.0 ThemeMain.qml

@@ -1,0 +1,6 @@
+module themes/classic
+ApplicationGrid 1.0 ApplicationGrid.qml
+ApplicationGridMenu 1.0 ApplicationGridMenu.qml
+ApplicationTile 1.0 ApplicationTile.qml
+ExpandableItem 1.0 ExpandableItem.qml
+ThemeMain 1.0 ThemeMain.qml
